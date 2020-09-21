@@ -1,0 +1,33 @@
+.Todos {
+    background: #ffffff;
+    Header {
+        font-size: 24px;
+        background: #ffffff;
+    }
+    .add {
+        margin-bottom: 30px;
+    }
+    input {
+        height: 40px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        &:focus, &:hover {
+            box-shadow: none;
+            border-radius: 0;
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            -ms-border-radius: 0;
+            -o-border-radius: 0;
+        }
+    }
+    .task-name {
+        padding-right: 10px;
+    }
+    .completed {
+        color: #8b8b8b;
+        .task-name {
+            text-decoration: line-through;
+        }
+    }
+}
